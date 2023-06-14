@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Counter:</h1>
+        <h1 id="count-el">0</h1>
+        <div class="add-minus">
+            <button id="decrement-btn" onclick="decrement()">DECREMENT</button>   
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        </div>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Previous entries: </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
